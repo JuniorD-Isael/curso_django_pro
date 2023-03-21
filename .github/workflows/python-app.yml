@@ -30,8 +30,7 @@ jobs:
         pipenv sync -d
     - name: Test with flake8
       run: |
-        pipenv run
-        flake8
+        pipenv run flake8
         pytest curso_django_pro --cov=curso_django_pro
         pytest --cov=./ --cov-report=xml
     - name: Upload coverage to Codecov
