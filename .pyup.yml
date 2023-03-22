@@ -1,6 +1,6 @@
 schedule: "every day"
 requirements:
-  - requirements.txt:
+  - Pipfile:
       update: all
-  - requirements-dev.txt:
+  - Pipfile.lock:
       update: all
