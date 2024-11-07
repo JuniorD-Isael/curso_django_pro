@@ -57,13 +57,8 @@
             "version": "==8.3.3"
         },
         "pytest-django": {
-            "hashes": [
-                "sha256:5d054fe011c56f3b10f978f41a8efb2e5adfc7e680ef36fb571ada1f24779d90",
-                "sha256:ca1ddd1e0e4c227cf9e3e40a6afc6d106b3e70868fd2ac5798a22501271cd0c7"
-            ],
-            "index": "pypi",
-            "markers": "python_version >= '3.8'",
-            "version": "==4.8.0"
+            "hashes": [],
+            "version": "==4.9.0"
         },
         "sqlparse": {
             "hashes": [
